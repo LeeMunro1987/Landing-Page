@@ -5,6 +5,7 @@ body {
     padding: 0;
     border: 0;
     background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 *, *:before, *:after {
@@ -26,16 +27,18 @@ body {
     padding: 0;
     display: flex;
     justify-content: space-around;
-    border: 2px solid red;
 }
 
 .links {
     display: flex;
+    gap: 24px;
+    align-items: center;
 }
 
 .links > a {
     font-size: 18px;
     color: #E5E7EB;
+    text-decoration: none;
 }
 
 .logo {
@@ -43,7 +46,6 @@ body {
     padding: 0;
     font-size: 24px;
     color: #F9FAF8;
-    border: 2px solid green;
     display: flex;
     align-items: center;
 }
