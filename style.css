@@ -121,7 +121,7 @@ body {
 
 /* CONTENT START */
 .content-wrapper {
-    background-color: #E5E7EB;
+    background-color: white;
     margin: 0;
     padding: 0;
     display: flex;
@@ -146,7 +146,7 @@ body {
     color: #1F2937;
 }
 .content {
-    width: 75%;
+    width: 60%;
     margin: 0;
     padding-bottom: 100px;
     display: flex;
@@ -178,13 +178,40 @@ body {
 
 /* CONTENT END */
 
-.quote {
-    height: 400px;
-    background-color: lightsalmon;
+/* QUOTE START */
+
+.quote-wrapper {
+    background-color: #E5E7EB;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote {
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 30px;
+    padding: 30px;
 }
 
+.quote > blockquote {
+    color: #333333;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.quote > p {
+    font-weight: 800;
+    align-self: flex-end;
+}
+
+/* QUOTE END */
 .signup {
     height: 200px;
     background-color: lightslategray;
