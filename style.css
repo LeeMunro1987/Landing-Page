@@ -200,8 +200,8 @@ body {
 }
 
 .quote > blockquote {
-    color: #333333;
-    font-weight: 200;
+    color: #1F2937;
+    font-weight: 100;
     font-style: italic;
     font-size: 32px;
 }
@@ -212,12 +212,63 @@ body {
 }
 
 /* QUOTE END */
-.signup {
-    height: 200px;
-    background-color: lightslategray;
+
+/* SIGNUP START */
+
+.signup-wrapper {
+    background-color: White;
     margin: 0;
-    padding: 0;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+.signup-outer {
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 80%;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+.signup-text > h1 {
+    margin-bottom: 2px;
+}
+
+.signup-text > p {
+    margin-top: 2px;
+}
+
+.signup-button > button {
+    padding: 10px 30px;
+    color: white;
+    font-size: 16px;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+/* SIGNUP END */
 
 footer {
     height: 50px;
