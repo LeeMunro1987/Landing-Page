@@ -270,9 +270,16 @@ body {
 
 /* SIGNUP END */
 
+/* FOOTER START */
+
 footer {
-    height: 50px;
-    background-color: lightgoldenrodyellow;
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
     margin: 0;
     padding: 0;
+}
+
+footer > p {
+    padding: 20px;
 }
